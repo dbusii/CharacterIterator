@@ -1,25 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Character Iterator</title>
-    <meta charset="utf-8"/>
-  </head>
 
-<body>
-
-<p id="character" class="char"></p>
-
-<style type="text/css">
-.char {
-      display: inline;
-      font-family: monospace;
-      color: #232323;
-      font-weight:lighter;
-      font-size: 2em;    
-}  
-</style>
-
-<script>
 let firstTimer = setInterval(generator, 100);
 let makeInput;
 
@@ -30,8 +9,3 @@ let makeInput;
                         clearInterval(firstTimer);
                         }
             }
-</script>
-
-</body>
-
-</html>
