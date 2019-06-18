@@ -8,13 +8,11 @@ class CharGen{
 	}
 	
 	start(){
-
 		document.getElementById(`${this.docElement}`).innerHTML = Math.random().toString(36).substring(2,3)
 		 if (document.getElementById(`${this.docElement}`).innerHTML === `${this.assignedChar}`) {
         clearInterval(this.timer);
         }
 	}
-
 }
 
 
