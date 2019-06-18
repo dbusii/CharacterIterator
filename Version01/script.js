@@ -7,7 +7,7 @@ class CharGen{
 		this.timer = setInterval(this.start.bind(this), 10);
 	}
 	
-	start(timerID){
+	start(){
 
 		document.getElementById(`${this.docElement}`).innerHTML = Math.random().toString(36).substring(2,3)
 		 if (document.getElementById(`${this.docElement}`).innerHTML === `${this.assignedChar}`) {
